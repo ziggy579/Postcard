@@ -13,6 +13,7 @@
 		9226AF3B19D4EF460056C5BA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9226AF3A19D4EF460056C5BA /* Images.xcassets */; };
 		9226AF3E19D4EF460056C5BA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9226AF3C19D4EF460056C5BA /* LaunchScreen.xib */; };
 		9226AF4A19D4EF460056C5BA /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9226AF4919D4EF460056C5BA /* PostcardTests.swift */; };
+		9226AF5419D61D1A0056C5BA /* Screen Shot 2014-05-24 at 10.00.06 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 9226AF5319D61D1A0056C5BA /* Screen Shot 2014-05-24 at 10.00.06 PM.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		9226AF4319D4EF460056C5BA /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9226AF4819D4EF460056C5BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9226AF4919D4EF460056C5BA /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		9226AF5319D61D1A0056C5BA /* Screen Shot 2014-05-24 at 10.00.06 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2014-05-24 at 10.00.06 PM.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				9226AF3519D4EF460056C5BA /* ViewController.swift */,
 				9226AF3719D4EF460056C5BA /* Main.storyboard */,
 				9226AF3A19D4EF460056C5BA /* Images.xcassets */,
+				9226AF5319D61D1A0056C5BA /* Screen Shot 2014-05-24 at 10.00.06 PM.png */,
 				9226AF3C19D4EF460056C5BA /* LaunchScreen.xib */,
 				9226AF3119D4EF460056C5BA /* Supporting Files */,
 			);
@@ -161,6 +164,7 @@
 				TargetAttributes = {
 					9226AF2D19D4EF460056C5BA = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = TZQ8KTRK4S;
 					};
 					9226AF4219D4EF460056C5BA = {
 						CreatedOnToolsVersion = 6.1;
@@ -195,6 +199,7 @@
 				9226AF3919D4EF460056C5BA /* Main.storyboard in Resources */,
 				9226AF3E19D4EF460056C5BA /* LaunchScreen.xib in Resources */,
 				9226AF3B19D4EF460056C5BA /* Images.xcassets in Resources */,
+				9226AF5419D61D1A0056C5BA /* Screen Shot 2014-05-24 at 10.00.06 PM.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,9 +341,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Postcard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -346,9 +354,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Postcard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
