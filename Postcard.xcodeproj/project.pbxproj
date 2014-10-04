@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D4118CF19DF75B7000B7E21 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D4118CE19DF75B7000B7E21 /* Default-568h@2x.png */; };
 		9226AF3419D4EF460056C5BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9226AF3319D4EF460056C5BA /* AppDelegate.swift */; };
 		9226AF3619D4EF460056C5BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9226AF3519D4EF460056C5BA /* ViewController.swift */; };
 		9226AF3919D4EF460056C5BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9226AF3719D4EF460056C5BA /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6D4118CE19DF75B7000B7E21 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		9226AF2E19D4EF460056C5BA /* Postcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Postcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9226AF3219D4EF460056C5BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9226AF3319D4EF460056C5BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 		9226AF2519D4EF460056C5BA = {
 			isa = PBXGroup;
 			children = (
+				6D4118CE19DF75B7000B7E21 /* Default-568h@2x.png */,
 				9226AF3019D4EF460056C5BA /* Postcard */,
 				9226AF4619D4EF460056C5BA /* PostcardTests */,
 				9226AF2F19D4EF460056C5BA /* Products */,
@@ -199,6 +202,7 @@
 				9226AF3919D4EF460056C5BA /* Main.storyboard in Resources */,
 				9226AF3E19D4EF460056C5BA /* LaunchScreen.xib in Resources */,
 				9226AF3B19D4EF460056C5BA /* Images.xcassets in Resources */,
+				6D4118CF19DF75B7000B7E21 /* Default-568h@2x.png in Resources */,
 				9226AF5419D61D1A0056C5BA /* Screen Shot 2014-05-24 at 10.00.06 PM.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +420,7 @@
 				9226AF4F19D4EF460056C5BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9226AF5019D4EF460056C5BA /* Build configuration list for PBXNativeTarget "PostcardTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +429,7 @@
 				9226AF5219D4EF460056C5BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
